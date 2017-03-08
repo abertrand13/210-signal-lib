@@ -6,7 +6,7 @@ void sendSignal(signal s) {
 	// Serial.println("Transmitting");
 }
 
-signal receiveSignal() {
+signal receiveSignal(void) {
 	enum signal sig;
 	
 	if(Serial.available() > 0) {
