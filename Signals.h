@@ -15,7 +15,7 @@ enum signal {
 // not strictly related to signalling, but location sync
 // is a major part of what we're doing here so it feels
 // right to include this
-enum location {
+enum Location {
 	REFILL,
 	GOAL_LEFT,
 	GOAL_MID,
