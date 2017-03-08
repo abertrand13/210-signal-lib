@@ -22,6 +22,6 @@ enum location {
 	GOAL_RIGHT
 };
 
-void sendSignal(signal s);
+void sendSignal(int s);
 
 signal receiveSignal(void);
