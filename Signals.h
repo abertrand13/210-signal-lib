@@ -24,4 +24,4 @@ enum Location {
 
 void sendSignal(int s);
 
-signal receiveSignal(void);
+signal receiveSignal(int debug);
