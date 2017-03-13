@@ -9,7 +9,8 @@ enum signal {
 	NEXT_RIGHT,
 	NEXT_REFILL,
 	READY2FIRE,
-	REFILL_DONE
+	REFILL_DONE,
+  STOPAF
 };
 
 // not strictly related to signalling, but location sync
